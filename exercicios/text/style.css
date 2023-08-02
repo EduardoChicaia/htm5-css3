@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    background-color: #f21de2;
+    color: white;
+}
+.cabeçario {
+    width: 100%;
+    background-color: #05c7f2;
+    height: 60px;
+}
+header main {
+    margin: auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    float: inline-start;
+    width: 70%;
+}
+.logo img {
+    height: 60px;
+    border-radius: 50%;
+}
+.ul li {
+    display: block;
+    float: left;
+    height: 35px;
+    list-style: none;
+    text-align: right;
+}
+.ul li img {
+    text-align: right;
+    float: left;
+    width: 90%;
+    height: 30px;
+    padding: 15px;
+}
+.navegador {
+    background-color: #0d0d0d;
+    width: 100%;
+    border-bottom: 3px solid rgb(255, 0, 179);
+    height: 50px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul li {
+    display: block;
+    color: white;
+    margin-left: 15px;
+    float: left;
+    text-align: center;
+    padding: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, serif;
+    height: 28px;
+}
+.menu ul li a {
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+}
+.menu ul li:hover{
+    border-bottom: 1px solid white;
+}
+.menu ul li a:hover {
+    color: white;
+}
+.busca {
+    padding: 12px;
+    text-align: center;
+    width: 90%;
+    margin-right: 20px;
+}
+.busca input {
+    height: 20px;
+    border: 1px solid rgb(255, 0, 179);
+    background-image: url('img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: color black;
+}
+.flex img {
+    width: 100%;
+    height: 300px;
+}
+section h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    padding: 16px;
+    text-align: center;
+    font: 1em sans-serif;
+    margin: 8px;
+    border-radius: 10px 30px;
+
+}
+section div p {
+    text-align: justify;
+}
+section div:hover {
+    background-color: #f21d44;
+}
+footer {
+    text-align: center;
+    font-size: 2em;
+}
+footer:hover {
+    color: #0d0d0d;
+    
+}
