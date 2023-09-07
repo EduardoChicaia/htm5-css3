@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dando outros passos dos formulários</title>
+</head>
+<body>
+    <h1>Testando o aprendizado em formulários</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="30" placeholder="Nome completo">
+        </p>
+        <p>
+            <label for="imedia">Média: </label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" step="0.5" placeholder="Média">
+        </p>
+        <p>
+            <label for="idate">Data da prova: </label>
+            <input type="date" name="date" id="idate">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
