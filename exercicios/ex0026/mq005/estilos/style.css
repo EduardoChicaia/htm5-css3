@@ -17,10 +17,10 @@ header> h1 {
     text-align: center;
 }
 menu {
-    display: block;
+    display: none;
 }
 menu > ul {
-    list-style: none;
+    list-style: block;
 }
 menu > ul > li > a {
     display: block;
@@ -33,6 +33,19 @@ menu > ul > li > a {
 }
 menu > ul > li > a:hover {
     background-color: gray;
+}
+span#burger {
+    background-color: rgb(19, 18, 18);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-top: 2px solid rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+}
+span#burger:hover {
+    background-color: white;
+    color: black;
 }
 main {
     width: 90vw;
